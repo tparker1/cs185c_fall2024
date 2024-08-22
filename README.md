@@ -1,4 +1,4 @@
-# Numerical Ocean Modeling - CS 195C
+# Numerical Ocean Modeling - CS 185C
 
 This repo is for the CS 185C course taught at San José State University in Fall 2024.
 
