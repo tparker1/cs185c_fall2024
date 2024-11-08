@@ -28,4 +28,9 @@
  delY = 1/16
  xgOrigin = -78
  ygOrigin = 8
+ hydrogThetaFile = 'THETA_IC.bin',
+ hydrogSaltFile = 'SALT_IC.bin',
+ uVelInitFile = 'UVEL_IC.bin',
+ vVelInitFile = 'VVEL_IC.bin',
+ pSurfInitFile = 'ETAN_IC.bin',
  &
