@@ -27,10 +27,11 @@
 # Input datasets
  &PARM05
  usingSphericalPolarGrid=.TRUE.,
- delX = 2
- delY = 2  
- xgOrigin = -180 
- ygOrigin = -90  
+ delX = 2,
+ delY = 2,  
+ xgOrigin = -180, 
+ ygOrigin = -90,  
+ bathyFile = 'global_bathymetry.bin,
  hydrogThetaFile = 'THETA_IC.bin',
  hydrogSaltFile = 'SALT_IC.bin',
  uVelInitFile = 'UVEL_IC.bin',
