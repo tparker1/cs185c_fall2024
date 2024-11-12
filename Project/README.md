@@ -15,7 +15,7 @@ Limitations: Due to time and computing restraints the model will be run on a ver
 
 
 ## Creating the model grid
-The grid for my model will be a coarse grid of the entire planet, with a grid spacing of 1/2 covering a grid of 360 columns and 180 rows. This coarse grid will enable me to run the model for longer. The code for the grid can be found in `notebooks/9-1 Creating Model Grid`.
+The grid for my model will be a coarse grid of the entire planet, with a grid spacing of 2 covering a grid of 180 columns and 90 rows. This coarse grid will enable me to run the model for longer. The code for the grid can be found in `notebooks/9-1 Creating Model Grid`.
 
 In the data file for my model, I will specifiy the following parameters in the `PARM04` namelist in the `data` file:
 
