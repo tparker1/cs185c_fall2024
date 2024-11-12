@@ -21,8 +21,8 @@ In the data file for my model, I will specifiy the following parameters in the `
 
 ```
 usingSphericalPolarGrid=.TRUE., 
-delX = 1/2  
-delY = 1/2  
+delX = 2  
+delY = 2  
 xgOrigin = -180  
 ygOrigin = -90   
 ```
