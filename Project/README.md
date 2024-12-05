@@ -1,15 +1,17 @@
-# Extreme Coastal Wave Harvesting
+# Numerical Analysis: How resolution changes output. 
 
 ## Project Description
-In this project, I will investigate the effects of excessive wave energy harvesting on global ocean currents. That is:
+In this project, I will investigate the effects of resolution on a global numerical ocean model. Specifically, I will compare the output after one year for a grid of size SIZEXSIZE to a grid of size SIZE X SIZE.
  
-_How would harvesting coastal wave energy impact ocean currents?_
-For example, imagine if all of Earth’s shores were lined with underwater wave turbines. 
+_How much can changing the grid resolution effect the model output?_
+This experiment will explore how much the model output is altered by simply changing the grid resolution of the model. 
+To investigate this question, I will run a model simulation beginning in 2008 for 1 year, using MITgcm. I will run models at different grid resolutions: 1 degree and 11 degree. 
 
-This experiment will explore how much of the ocean’s energy is contained in shore waves, and the long-term consequences of converting shorelines to energy sinks. 
-To investigate this question, I will create a very coarse model of Earth and run the model simulation for approximately 3 years, beginning in 2008. I anticipate that if the model can run for a sufficiently long time (10+ years), we will see a slowing of ocean currents. 
+I anticipate no major changes or instability from changing the grid resolution. 
 
-For initial conditions, I will use the state of the ECCO Version 5 Model in January of 2008. Similarly, I will construct boundary and external forcing conditions for this model from the ECCO Version 5 model output. To analyze the results, I will create a time series of mean velocity magnitudes. For visualization, I will create two movies of velocities: one with the shore velocity sinks and one without. 
+For initial conditions, I will use the state of the ECCO Version 5 Model in January of 2008. Similarly, 
+
+For the external forcing conditions, I use the ECCO Version 5 model output and turn on MITgcm interpolation. To analyze the results, I will create a time series of the temperature at arbitrary points, and a video of the velocity magnitudes over time for each grid resolution. 
 
 Limitations: Due to time and computing restraints the model will be run on a very coarse grid. Furthermore, this experiment does not consider the effects of underwater wave turbines on on coastal ecosystems or surfer well-being. 
 
