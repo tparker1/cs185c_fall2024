@@ -117,12 +117,10 @@ Next, run the medium grid model to complete the experiment. For this one, go to 
 
 There are two notebooks provided for analysis:
 
-[comment]    Analyzing Model Results
+### Analyzing Model Results
+This notebook is provided to have a quick look at the temporal variation in the temperature field and the spatial and temporal variations in the velocity fields for each resolution model. It also generates the visualization provided in the figures directory.
 
-[comment]    This notebook is provided to have a quick look at spatial and temporal variations in the temperature field in the model with wind. It also generates the visualization provided in the figures directory.
-
-[comment]  Answering the Science Question
-
-[comment]    This notebooks provided some analysis plot to address the science question posed above.
+### Answering the Science Question
+This notebooks provided some analysis plot to address the science question posed above.
 
 
