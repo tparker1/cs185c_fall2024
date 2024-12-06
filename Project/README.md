@@ -32,6 +32,8 @@ My experiement will require two grids:
 In the data file for my model, I will specifiy the following parameters in the `PARM04` namelist in the `data` file:
 
 COARSE GRID
+
+Add to `namelist\coarse\data`
 ```
 usingSphericalPolarGrid=.TRUE., 
 delX = 1  
@@ -41,6 +43,8 @@ ygOrigin = -90
 ```
 
 MEDIUM GRID
+
+Add to `namelist\medium\data`
 ```
 usingSphericalPolarGrid=.TRUE., 
 delX = 0.5  
