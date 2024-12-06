@@ -58,7 +58,7 @@ The code to create my bathymetry file can be found in `notebooks/9-2 Creating Ba
 
 By running this notebook, we prepare the input bathymetry by smoothing and filling the land. 
 
-This bathymetry will be implemented into the model by editing the `PARM05` dataset of the `data` file as follows:
+This bathymetry will be implemented into the model by editing the `PARM05` dataset of the correspoonding `data` file as follows:
 ```
  &PARM05
  bathyFile = 'global_bathymetry.bin,
@@ -70,7 +70,7 @@ The code to create my initial condition files can be found in `notebooks/10-2 Cr
 
 This notebook will guide you through creating the initial condition grids for each resolution. 
 
-These initial condition grids will be implemented into the model by editing `PARM05` in the `data` file as follows:
+These initial condition grids will be implemented into the model by editing `PARM05` in the corresponding `data` file as follows:
 ```
 hydrogThetaFile = 'THETA_IC.bin',
 hydrogSaltFile = 'SALT_IC.bin',
