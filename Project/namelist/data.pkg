@@ -1,8 +1,0 @@
-# Packages
- &PACKAGES
- useCAL         = .TRUE.,
- useEXF         = .TRUE.,
- useDIAGNOSTICS = .TRUE., 
- useGGL90       = .TRUE.,
- useGMREDI      - .TRUE.,
-&
