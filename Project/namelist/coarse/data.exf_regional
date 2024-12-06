@@ -1,0 +1,70 @@
+# *********************
+# External Forcing Data
+# *********************
+
+ &EXF_NML_01
+ exf_albedo        = 0.1,
+# useExfZenIncoming = .TRUE., 
+# select_ZenAlbedo  = 1,
+ useExfYearlyFields= .TRUE.,
+ useExfCheckRange  = .FALSE.,
+ /
+
+ &EXF_NML_02
+ uwindfile         = 'exf/UWIND',
+ vwindfile         = 'exf/VWIND',
+ atempfile         = 'exf/ATEMP',
+ aqhfile           = 'exf/AQH',
+ precipfile        = 'exf/PRECIP',
+ swdownfile        = 'exf/SWDOWN',
+ lwdownfile        = 'exf/LWDOWN',
+# runofffile        = 'exf/RUNOFF',
+#
+ atempstartdate1   = 20080101,
+ atempstartdate2   = 030000,
+ atempperiod       = 21600.0,
+#
+ aqhstartdate1     = 20080101,
+ aqhstartdate2     = 030000,
+ aqhperiod         = 21600.0,
+#
+ precipstartdate1  = 20080101,
+ precipstartdate2  = 030000,
+ precipperiod      = 21600.0,
+#
+# runoffstartdate1  = 20080101,
+# runoffstartdate2  = 030000,
+# runoffperiod      = 21600.0,
+#
+ uwindstartdate1   = 20080101,
+ uwindstartdate2   = 030000,
+ uwindperiod       = 21600.0,
+#
+ vwindstartdate1   = 20080101,
+ vwindstartdate2   = 030000,
+ vwindperiod       = 21600.0,
+#
+ swdownstartdate1  = 20080101,
+ swdownstartdate2  = 030000,
+ swdownperiod      = 21600.0,
+#
+ lwdownstartdate1  = 20080101,
+ lwdownstartdate2  = 030000,
+ lwdownperiod      = 21600.0,
+#
+ /
+
+
+ &EXF_NML_03
+ /
+
+ &EXF_NML_04
+ runoff_interpMethod = 0,
+ uwind_interpMethod = 0,
+ vwind_interpMethod = 0,
+ atemp_interpMethod = 0,
+ aqh_interpMethod = 0,
+ precip_interpMethod = 0,
+ swdown_interpMethod = 0,
+ lwdown_interpMethod = 0,
+ /
