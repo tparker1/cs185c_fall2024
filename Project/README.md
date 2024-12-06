@@ -87,11 +87,11 @@ This notebook will shift input grids with `xgOrigin, ygOrigin = -180, -90` to `x
 
 ## Step 2: Add files to the computing cluster
 
-Once the input files have been created, the model files can be transferred to the computing cluster. Begin by cloning a copy of MITgcm into your scratch directory and make a folder for each configuration, .e.g.
+Once the input files have been created, the model files can be transferred to the computing cluster. Begin by cloning a copy of MITgcm into your scratch directory and make a folder for **each** configuration. There will be **2** configuration files. 
 
-`mkdir MITgcm/configurations/global_ocean_coarse`
+`mkdir MITgcm/configurations/global_ocean_coarse` (mine is global_currents) 
 
-`mkdir MITgcm/configurations/global_ocean_medium`
+`mkdir MITgcm/configurations/global_ocean_medium` (mine is global_ocean_half_deg)
 
 Then, use the scp command to send the code, input, and namelist directories to the respective configuration directory.
 
