@@ -80,3 +80,49 @@ The code to prepare the initial condition and bathymetry grids can be found in `
 
 This notebook will shift input grids with `xgOrigin, ygOrigin = -180, -90` to `xgOrigin, ygOrigin = 0, -90` to align with MITgcm's built-in interpolation expectations. 
 
+
+## Step 2: Add files to the computing cluster
+
+Once the input files have been created, the model files can be transferred to the computing cluster. Begin by cloning a copy of MITgcm into your scratch directory and make a folder for each configuration, .e.g.
+
+`mkdir MITgcm/configurations/global_ocean_coarse`
+
+`mkdir MITgcm/configurations/global_ocean_medium`
+
+Then, use the scp command to send the code, input, and namelist directories to the respective configuration directory.
+
+## Step 3: Compile the model
+
+Once all of the files are on the computing cluster, the model can be compiled. Make a build directory in each of the configuration directories and run the following lines:
+
+../../../tools/genmake2 -of ../../../tools/build_options/darwin_amd64_gfortran -mods ../code -mpi
+make depend
+make
+
+
+## Step 4: Run the two models
+### 4.1: Run the coarse grid model
+
+After the compilation is complete, run the coarse grid model. Move to the respective run directory, link everything from input and code, and the submit the job script:
+
+`sbatch cs185c_parker.slm`
+
+### 4.2: Run the medium grid model
+
+Next, run the medium grid model to complete the experiment. For this one, go to the medium grid configuration file, link everything from input and code, and the submit the job script:
+
+`sbatch cs185c_m_parker.slm`
+
+## Step 5: Analyze the Results
+
+There are two notebooks provided for analysis:
+
+[comment]    Analyzing Model Results
+
+[comment]    This notebook is provided to have a quick look at spatial and temporal variations in the temperature field in the model with wind. It also generates the visualization provided in the figures directory.
+
+[comment]  Answering the Science Question
+
+[comment]    This notebooks provided some analysis plot to address the science question posed above.
+
+
