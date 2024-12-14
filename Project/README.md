@@ -119,12 +119,17 @@ Next, run the medium grid model to complete the experiment. For this one, go to 
 
 ## Step 5: Analyze the Results
 
-There are two notebooks provided for analysis:
+There notebook provided for analysis is `notebooks/Visualizing Model Runs.ipynb`
 
-### Analyzing Model Results
-This notebook is provided to have a quick look at the temporal variation in the temperature field and the spatial and temporal variations in the velocity fields for each resolution model. It also generates the visualization provided in the figures directory.
+### Visualizing Model Results and Answering the Science Question
+This notebook is provided to generate visualizations for temporal and spatial variation in the temperature and velocity fields for each resolution model. Here, I provide the main visualizations and provide a brief summary of the conclusion: 
 
-### Answering the Science Question
-This notebooks provided some analysis plot to address the science question posed above.
+[![Temperature Timeseries at a Point](https://drive.google.com/download?id=1UxwiG6XX8usgCsUA_Sm4hAQowJrqHdNI)](https://drive.google.com/file/d/1UxwiG6XX8usgCsUA_Sm4hAQowJrqHdNI/view?usp=sharing)
+
+We conclude that the increased resolution decreases artifacting and noise, especially in the temperature fields near Antarctica, but does not completely resolve the issue. Similarily, we see less noise in the velocity fields for the higher reolution, but the difference is less noticable than for the temperature. The temperature at a sinlg point through time varies slightly between the two resolutions, but overall shows the same trend. 
+
+Next steps could include running the model at a finer resolution, and varying stability parameters. 
+
+
 
 
