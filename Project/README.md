@@ -126,10 +126,10 @@ This notebook is provided to generate visualizations for temporal and spatial va
 
 [![Temperature Timeseries at a Point](https://drive.usercontent.google.com/download?id=1UxwiG6XX8usgCsUA_Sm4hAQowJrqHdNI)](https://drive.google.com/file/d/1UxwiG6XX8usgCsUA_Sm4hAQowJrqHdNI/view?usp=sharing)
 
-[![Temperature Field over Time](https://drive.usercontent.google.com/download?id=1b3JL-LAR8nuScHd1QfBYyzvsXDItwdnm)](https://drive.google.com/file/d/1b3JL-LAR8nuScHd1QfBYyzvsXDItwdnm/view?usp=sharing)
+[![Temperature Field over Time](https://drive.usercontent.google.com/download?id=1zr9FYMXuDxE-CAzP7AkM0-7ktb5UQUrp)](https://drive.google.com/file/d/1zr9FYMXuDxE-CAzP7AkM0-7ktb5UQUrp/view?usp=sharing)
 
 
-[![Velocity Field over Time](https://drive.usercontent.google.com/download?id=1b3JL-LAR8nuScHd1QfBYyzvsXDItwdnm)](https://drive.google.com/file/d/1b3JL-LAR8nuScHd1QfBYyzvsXDItwdnm/view?usp=sharing)
+[![Velocity Field over Time](https://drive.usercontent.google.com/download?id=16J5sD1K1fEmx-0LBqpOuZO9GcqcyHHr4)](https://drive.google.com/file/d/16J5sD1K1fEmx-0LBqpOuZO9GcqcyHHr4/view?usp=sharing)
 
 We conclude that the increased resolution decreases artifacting and noise, especially in the temperature fields near Antarctica, but does not completely resolve the issue. Similarily, we see less noise in the velocity fields for the higher reolution, but the difference is less noticable than for the temperature. The temperature at a sinlg point through time varies slightly between the two resolutions, but overall shows the same trend. 
 
